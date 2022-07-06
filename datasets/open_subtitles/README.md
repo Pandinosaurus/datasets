@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - af
 - ar
 - bg
@@ -66,28 +66,27 @@ languages:
 - ze_zh
 - zh_cn
 - zh_tw
-licenses:
+license:
 - unknown
 multilinguality:
 - multilingual
 size_categories:
-  bn-is:
-  - 10K<n<100K
-  bs-eo:
-  - 10K<n<100K
-  da-ru:
-  - 1M<n<10M
-  en-hi:
-  - 10K<n<100K
-  fr-hy:
-  - n<1K
+- 10K<n<100K
+- 1M<n<10M
+- n<1K
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: opensubtitles
+pretty_name: OpenSubtitles
+configs:
+- bn-is
+- bs-eo
+- da-ru
+- en-hi
+- fr-hy
 ---
 
 # Dataset Card Creation Guide

@@ -3,9 +3,9 @@ annotations_creators:
 - expert-generated
 language_creators:
 - found
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - monolingual
@@ -19,6 +19,23 @@ task_ids:
 - closed-domain-qa
 - extractive-qa
 paperswithcode_id: cuad
+pretty_name: CUAD
+train-eval-index:
+- config: default
+  task: question-answering
+  task_id: extractive_question_answering
+  splits:
+    train_split: train
+    eval_split: test
+  col_mapping:
+    question: question
+    context: context
+    answers:
+      text: text
+      answer_start: answer_start
+  metrics:
+    - type: cuad
+      name: CUAD
 ---
 
 # Dataset Card for CUAD
@@ -52,7 +69,7 @@ paperswithcode_id: cuad
 - **Homepage:** [Contract Understanding Atticus Dataset](https://www.atticusprojectai.org/cuad)
 - **Repository:** [Contract Understanding Atticus Dataset](https://github.com/TheAtticusProject/cuad/)
 - **Paper:** [CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review](https://arxiv.org/abs/2103.06268)
-- **Point of Contact:** [info@atticusprojectai.org](Atticus Project Team)
+- **Point of Contact:** [Atticus Project Team](info@atticusprojectai.org)
 
 ### Dataset Summary
 

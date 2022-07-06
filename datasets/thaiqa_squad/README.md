@@ -3,9 +3,9 @@ annotations_creators:
 - expert-generated
 language_creators:
 - found
-languages:
+language:
 - th
-licenses:
+license:
 - cc-by-nc-sa-3.0
 multilinguality:
 - monolingual
@@ -19,6 +19,7 @@ task_ids:
 - extractive-qa
 - open-domain-qa
 paperswithcode_id: null
+pretty_name: thaiqa-squad
 ---
 
 # Dataset Card for `thaiqa-squad`
@@ -145,7 +146,9 @@ All contents are from Wikipedia. No personal and sensitive information is expect
 
 ### Other Known Limitations
 
-- The contexts include `<doc>` tags at start and at the end
+Dataset provided for research purposes only. Please check dataset license for additional information.
+
+The contexts include `<doc>` tags at start and at the end
 
 ## Additional Information
 

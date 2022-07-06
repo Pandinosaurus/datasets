@@ -3,9 +3,9 @@ annotations_creators:
 - no-annotation
 language_creators:
 - expert-generated
-languages:
+language:
 - en-US
-licenses:
+license:
 - mit
 multilinguality:
 - monolingual
@@ -17,6 +17,7 @@ task_categories:
 - question-answering
 task_ids:
 - multiple-choice-qa
+pretty_name: HendrycksTest
 ---
 
 # Dataset Card for HendrycksTest

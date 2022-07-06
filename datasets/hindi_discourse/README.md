@@ -3,10 +3,10 @@ annotations_creators:
 - other
 language_creators:
 - found
-languages:
+language:
 - hi
-licenses:
-- other-MIDAS-LAB-IIITD-Delhi
+license:
+- other
 multilinguality:
 - monolingual
 size_categories:
@@ -14,10 +14,13 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- sequence-modeling
-task_ids:
-- sequence-modeling-other-discourse-analysis
+- text-generation
+- fill-mask
+- text-generation
+- fill-mask
+- text-generation-other-discourse-analysis
 paperswithcode_id: null
+pretty_name: Discourse Analysis dataset
 ---
 
 # Dataset Card for Discourse Analysis dataset

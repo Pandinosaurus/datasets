@@ -1,5 +1,6 @@
 ---
-languages:
+pretty_name: Mathematics Dataset
+language:
 - en
 paperswithcode_id: mathematics
 ---
@@ -67,8 +68,6 @@ train_examples, val_examples = datasets.load_dataset(
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

@@ -3,9 +3,9 @@ annotations_creators:
 - found
 language_creators:
 - machine-generated
-languages:
+language:
 - en
-licenses:
+license:
 - unknown
 multilinguality:
 - monolingual
@@ -18,9 +18,10 @@ task_categories:
 task_ids:
 - other-other-open-information-extraction
 paperswithcode_id: tupleinf-open-ie-dataset
+pretty_name: TupleInf Open IE
 ---
 
-# Dataset Card for [Dataset Name]
+# Dataset Card for TupleInf Open IE
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -48,9 +49,9 @@ paperswithcode_id: tupleinf-open-ie-dataset
 
 ## Dataset Description
 
-- **Homepage: [Tuple IE Homepage](https://allenai.org/data/tuple-ie)**
+- **Homepage:** [Tuple IE Homepage](https://allenai.org/data/tuple-ie)
 - **Repository:**
-- **Paper: [Answering Complex Questions Using Open Information Extraction](https://www.semanticscholar.org/paper/Answering-Complex-Questions-Using-Open-Information-Khot-Sabharwal/0ff595f0645a3e25a2f37145768985b10ead0509)**
+- **Paper:** [Answering Complex Questions Using Open Information Extraction](https://www.semanticscholar.org/paper/Answering-Complex-Questions-Using-Open-Information-Khot-Sabharwal/0ff595f0645a3e25a2f37145768985b10ead0509)
 - **Leaderboard:**
 - **Point of Contact:**
 
@@ -89,7 +90,7 @@ An example of an instance:
 
 ### Data Fields
 
-- `setence`: the input text/sentence.
+- `sentence`: the input text/sentence.
 - `tuples`: the extracted relation tuples from the sentence.
   - `score`: the confident score for each tuple.
   - `tuple_text`: the relationship representation text of the extraction, in the *simple format* of [Open IE v4](https://github.com/allenai/openie-standalone).
@@ -100,7 +101,11 @@ An example of an instance:
 
 ### Data Splits
 
-[More Information Needed]
+|    name   | train|
+|-----------|-----:|
+|    all    |267719|
+| 4th_grade |158910|
+| 8th_grade |108809|
 
 ## Dataset Creation
 
@@ -158,7 +163,15 @@ An example of an instance:
 
 ### Citation Information
 
-[More Information Needed]
+```bibtex
+@article{Khot2017AnsweringCQ,
+  title={Answering Complex Questions Using Open Information Extraction},
+  author={Tushar Khot and A. Sabharwal and Peter Clark},
+  journal={ArXiv},
+  year={2017},
+  volume={abs/1704.05572}
+}
+```
 
 ### Contributions
 

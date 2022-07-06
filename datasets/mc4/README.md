@@ -4,7 +4,7 @@ annotations_creators:
 - no-annotation
 language_creators:
 - found
-languages:
+language:
 - af
 - am
 - ar
@@ -114,8 +114,8 @@ languages:
 - zh
 - zh-Latn
 - zu
-licenses:
-- odc-by-1.0
+license:
+- odc-by
 multilinguality:
 - multilingual
 size_categories:
@@ -130,9 +130,11 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- sequence-modeling
+- text-generation
+- fill-mask
 task_ids:
 - language-modeling
+- masked-language-modeling
 paperswithcode_id: mc4
 ---
 

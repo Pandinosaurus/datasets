@@ -3,72 +3,45 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
-  all_languages:
-  - de
-  - en
-  - es
-  - fr
-  - ja
-  - zh
-  de:
-  - de
-  en:
-  - en
-  es:
-  - es
-  fr:
-  - fr
-  ja:
-  - ja
-  zh:
-  - zh
-licenses:
-- other-amazon-license
+language:
+- de
+- en
+- es
+- fr
+- ja
+- zh
+license:
+- other
 multilinguality:
-  all_languages:
-  - multilingual
-  de:
-  - monolingual
-  en:
-  - monolingual
-  es:
-  - monolingual
-  fr:
-  - monolingual
-  ja:
-  - monolingual
-  zh:
-  - monolingual
+- monolingual
+- multilingual
 size_categories:
-  all_languages:
-  - 1M<n<10M
-  de:
-  - 100K<n<1M
-  en:
-  - 100K<n<1M
-  es:
-  - 100K<n<1M
-  fr:
-  - 100K<n<1M
-  ja:
-  - 100K<n<1M
-  zh:
-  - 100K<n<1M
+- 100K<n<1M
+- 1M<n<10M
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-- sequence-modeling
+- summarization
+- text-generation
+- fill-mask
 - text-classification
-- text-scoring
 task_ids:
+- text-scoring
 - language-modeling
+- masked-language-modeling
 - sentiment-classification
 - sentiment-scoring
-- summarization
 - topic-classification
 paperswithcode_id: null
+pretty_name: The Multilingual Amazon Reviews Corpus
+configs:
+- all_languages
+- de
+- en
+- es
+- fr
+- ja
+- zh
 ---
 
 # Dataset Card for The Multilingual Amazon Reviews Corpus

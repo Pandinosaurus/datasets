@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: quail
+pretty_name: Question Answering for Artificial Intelligence
 ---
 
 # Dataset Card for "quail"
@@ -53,8 +54,6 @@ QuAIL is a  reading comprehension dataset. QuAIL contains 15K multi-choice quest
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

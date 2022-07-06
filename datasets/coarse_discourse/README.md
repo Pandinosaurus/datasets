@@ -1,5 +1,6 @@
 ---
 paperswithcode_id: coarse-discourse
+pretty_name: Coarse Discourse
 ---
 
 # Dataset Card for "coarse_discourse"
@@ -51,8 +52,6 @@ dataset contains discourse annotation and relation on threads from reddit during
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

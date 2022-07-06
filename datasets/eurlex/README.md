@@ -3,9 +3,9 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-sa-4.0
 multilinguality:
 - monolingual
@@ -19,6 +19,7 @@ task_ids:
 - multi-label-classification
 - text-classification-legal-topic-classification
 paperswithcode_id: eurlex57k
+pretty_name: the EUR-Lex dataset
 ---
 
 # Dataset Card for the EUR-Lex dataset

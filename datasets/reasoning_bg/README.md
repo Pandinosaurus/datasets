@@ -3,9 +3,9 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - bg
-licenses:
+license:
 - apache-2.0
 multilinguality:
 - monolingual
@@ -18,6 +18,7 @@ task_categories:
 task_ids:
 - multiple-choice-qa
 paperswithcode_id: null
+pretty_name: ReasoningBg
 ---
 # Dataset Card for reasoning_bg
 

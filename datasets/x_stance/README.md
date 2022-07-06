@@ -1,5 +1,6 @@
 ---
 paperswithcode_id: x-stance
+pretty_name: x-stance
 ---
 
 # Dataset Card for "x_stance"
@@ -53,8 +54,6 @@ It can be used to train and evaluate stance detection systems.
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

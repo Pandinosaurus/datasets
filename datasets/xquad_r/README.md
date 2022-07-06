@@ -3,30 +3,19 @@ annotations_creators:
 - expert-generated
 language_creators:
 - found
-languages:
-  ar:
-  - ar
-  de:
-  - de
-  el:
-  - el
-  en:
-  - en
-  es:
-  - es
-  hi:
-  - hi
-  ru:
-  - ru
-  th:
-  - th
-  tr:
-  - tr
-  vi:
-  - vi
-  zh:
-  - zh
-licenses:
+language:
+- ar
+- de
+- el
+- en
+- es
+- hi
+- ru
+- th
+- tr
+- vi
+- zh
+license:
 - cc-by-sa-4.0
 multilinguality:
 - monolingual
@@ -40,6 +29,19 @@ task_categories:
 task_ids:
 - extractive-qa
 paperswithcode_id: xquad-r
+pretty_name: LAReQA
+configs:
+- ar
+- de
+- el
+- en
+- es
+- hi
+- ru
+- th
+- tr
+- vi
+- zh
 ---
 
 # Dataset Card for [Dataset Name]

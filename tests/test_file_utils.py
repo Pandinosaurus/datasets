@@ -1,24 +1,12 @@
 import os
 from pathlib import Path
-from unittest import TestCase
 from unittest.mock import patch
 
-import numpy as np
 import pytest
 import zstandard as zstd
 
-from datasets.utils.file_utils import (
-    DownloadConfig,
-    OfflineModeIsEnabled,
-    cached_path,
-    ftp_get,
-    ftp_head,
-    http_get,
-    http_head,
-    temp_seed,
-)
-
-from .utils import require_tf, require_torch
+from datasets.download.download_config import DownloadConfig
+from datasets.utils.file_utils import OfflineModeIsEnabled, cached_path, ftp_get, ftp_head, http_get, http_head
 
 
 FILE_CONTENT = """\
@@ -33,58 +21,6 @@ def zstd_path(tmp_path_factory):
     with zstd.open(path, "wb") as f:
         f.write(data)
     return path
-
-
-class TempSeedTest(TestCase):
-    @require_tf
-    def test_tensorflow(self):
-        import tensorflow as tf
-        from tensorflow.keras import layers
-
-        def gen_random_output():
-            model = layers.Dense(2)
-            x = tf.random.uniform((1, 3))
-            return model(x).numpy()
-
-        with temp_seed(42, set_tensorflow=True):
-            out1 = gen_random_output()
-        with temp_seed(42, set_tensorflow=True):
-            out2 = gen_random_output()
-        out3 = gen_random_output()
-
-        np.testing.assert_equal(out1, out2)
-        self.assertGreater(np.abs(out1 - out3).sum(), 0)
-
-    @require_torch
-    def test_torch(self):
-        import torch
-
-        def gen_random_output():
-            model = torch.nn.Linear(3, 2)
-            x = torch.rand(1, 3)
-            return model(x).detach().numpy()
-
-        with temp_seed(42, set_pytorch=True):
-            out1 = gen_random_output()
-        with temp_seed(42, set_pytorch=True):
-            out2 = gen_random_output()
-        out3 = gen_random_output()
-
-        np.testing.assert_equal(out1, out2)
-        self.assertGreater(np.abs(out1 - out3).sum(), 0)
-
-    def test_numpy(self):
-        def gen_random_output():
-            return np.random.rand(1, 3)
-
-        with temp_seed(42):
-            out1 = gen_random_output()
-        with temp_seed(42):
-            out2 = gen_random_output()
-        out3 = gen_random_output()
-
-        np.testing.assert_equal(out1, out2)
-        self.assertGreater(np.abs(out1 - out3).sum(), 0)
 
 
 @pytest.mark.parametrize("compression_format", ["gzip", "xz", "zstd"])

@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - ca
 - de
 - el
@@ -20,7 +20,7 @@ languages:
 - pt
 - ru
 - sv
-licenses:
+license:
 - unknown
 multilinguality:
 - multilingual
@@ -29,10 +29,10 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: null
+pretty_name: OpusBooks
 ---
 
 # Dataset Card Creation Guide

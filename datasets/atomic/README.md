@@ -1,11 +1,12 @@
 ---
+pretty_name: ATOMIC
 annotations_creators:
 - crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - monolingual
@@ -14,9 +15,9 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
+- text2text-generation
 task_ids:
-- other-stuctured-to-text
+- text2text-generation-other-common-sense-if-then-reasoning
 paperswithcode_id: atomic
 ---
 
@@ -74,6 +75,10 @@ you have any concerns.
 
 
 For more information, see: https://homes.cs.washington.edu/~msap/atomic/
+
+### Supported Tasks and Leaderboards
+
+[More Information Needed]
 
 ### Languages
 en

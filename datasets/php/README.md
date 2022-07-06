@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - cs
 - de
 - en
@@ -27,7 +27,7 @@ languages:
 - tw
 - zh
 - zh_TW
-licenses:
+license:
 - unknown
 multilinguality:
 - multilingual
@@ -36,10 +36,10 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: null
+pretty_name: php
 ---
 
 # Dataset Card Creation Guide

@@ -1,10 +1,29 @@
 ---
-languages:
+annotations_creators:
+- no-annotation
+language_creators:
+- found
+language:
 - en
-paperswithcode_id: null
+license:
+- unknown
+multilinguality:
+- monolingual
+pretty_name: BookCorpusOpen
+size_categories:
+- 10K<n<100K
+source_datasets:
+- original
+task_categories:
+- text-generation
+- fill-mask
+task_ids:
+- language-modeling
+- masked-language-modeling
+paperswithcode_id: bookcorpus
 ---
 
-# Dataset Card for "bookcorpusopen"
+# Dataset Card for BookCorpusOpen
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -54,8 +73,6 @@ This version of bookcorpus has 17868 dataset items (books). Each item contains t
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 
@@ -141,7 +158,9 @@ The data fields are the same among all splits.
 
 ### Licensing Information
 
-[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+The books have been crawled from smashwords.com, see their [terms of service](https://www.smashwords.com/about/tos) for more information.
+
+A data sheet for this dataset has also been created and published in [Addressing "Documentation Debt" in Machine Learning Research: A Retrospective Datasheet for BookCorpus](https://arxiv.org/abs/2105.05241)
 
 ### Citation Information
 

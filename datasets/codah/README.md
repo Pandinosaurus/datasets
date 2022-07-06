@@ -3,9 +3,9 @@ annotations_creators:
 - crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - en
-licenses:
+license:
 - unknown
 multilinguality:
 - monolingual
@@ -18,6 +18,7 @@ task_categories:
 task_ids:
 - multiple-choice-qa
 paperswithcode_id: codah
+pretty_name: COmmonsense Dataset Adversarially-authored by Humans
 ---
 
 # Dataset Card Creation Guide

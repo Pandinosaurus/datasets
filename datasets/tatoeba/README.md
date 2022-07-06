@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - ab
 - acm
 - ady
@@ -363,7 +363,7 @@ languages:
 - zsm
 - zu
 - zza
-licenses:
+license:
 - cc-by-2.0
 multilinguality:
 - multilingual
@@ -372,12 +372,12 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: tatoeba
+pretty_name: Tatoeba
 ---
-# Dataset Card Creation Guide
+# Dataset Card for Tatoeba
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -413,12 +413,17 @@ paperswithcode_id: tatoeba
 
 ### Dataset Summary
 
+Tatoeba is a collection of sentences and translations.
 
 To load a language pair which isn't part of the config, all you need to do is specify the language code as pairs.
 You can find the valid pairs in Homepage section of Dataset Description: http://opus.nlpl.eu/Tatoeba.php
 E.g.
 
 `dataset = load_dataset("tatoeba", lang1="en", lang2="he")`
+
+The default date is v2021-07-22, but you can also change the date with
+
+`dataset = load_dataset("tatoeba", lang1="en", lang2="he", date="v2020-11-09")`
 
 
 ### Supported Tasks and Leaderboards

@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: art-dataset
+pretty_name: Abductive Reasoning in narrative Text
 ---
 
 # Dataset Card for "art"
@@ -54,7 +55,7 @@ the Abductive Natural Language Inference Dataset from AI2
 
 ## Dataset Structure
 
-We show detailed information for up to 5 configurations of the dataset.
+`
 
 ### Data Instances
 

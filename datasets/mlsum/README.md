@@ -3,43 +3,41 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - de
 - es
 - fr
 - ru
 - tr
-licenses:
-- other-research-only
+license:
+- other
 multilinguality:
 - multilingual
 size_categories:
-  de:
-  - 100K<n<1M
-  es:
-  - 100K<n<1M
-  fr:
-  - 100K<n<1M
-  ru:
-  - 10K<n<100K
-  tu:
-  - 100K<n<1M
+- 100K<n<1M
+- 10K<n<100K
 source_datasets:
 - extended|cnn_dailymail
 - original
 task_categories:
-- conditional-text-generation
+- translation
 - text-classification
 task_ids:
-- machine-translation
 - multi-class-classification
 - multi-label-classification
 - summarization
 - topic-classification
 paperswithcode_id: mlsum
+pretty_name: MLSUM
+configs:
+- de
+- es
+- fr
+- ru
+- tu
 ---
 
-# Dataset Card for "mlsum"
+# Dataset Card for MLSUM
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -70,7 +68,7 @@ paperswithcode_id: mlsum
 - **Homepage:** []()
 - **Repository:** https://github.com/recitalAI/MLSUM
 - **Paper:** https://www.aclweb.org/anthology/2020.emnlp-main.647/
-- **Point of Contact:** thomas@recital.ai
+- **Point of Contact:** [email](thomas@recital.ai)
 - **Size of downloaded dataset files:** 1748.64 MB
 - **Size of the generated dataset:** 4635.42 MB
 - **Total amount of disk used:** 6384.06 MB
@@ -92,8 +90,6 @@ These highlight existing biases which motivate the use of a multi-lingual datase
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

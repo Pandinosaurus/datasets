@@ -3,10 +3,10 @@ annotations_creators:
 - crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - en
-licenses:
-- other-nlm-license
+license:
+- other
 multilinguality:
 - monolingual
 size_categories:
@@ -14,19 +14,20 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-- sequence-modeling
+- text-generation
+- fill-mask
 - text-classification
-- text-scoring
 task_ids:
 - language-modeling
-- other-stuctured-to-text
-- text-scoring-other-citation-estimation
+- masked-language-modeling
+- text-classification-other-citation-estimation
+- text-scoring
 - topic-classification
 paperswithcode_id: pubmed
+pretty_name: PubMed
 ---
 
-# Dataset Card for [Dataset Name]
+# Dataset Card for PubMed
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -197,7 +198,7 @@ There are no splits in this dataset. It is given as is.
 
 ### Citation Information
 
-[More Information Needed]
+[Courtesy of the U.S. National Library of Medicine](https://www.nlm.nih.gov/databases/download/terms_and_conditions.html).
 
 ### Contributions
 

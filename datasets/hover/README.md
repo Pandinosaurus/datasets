@@ -4,9 +4,9 @@ annotations_creators:
 language_creators:
 - expert-generated
 - found
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-sa-4.0
 multilinguality:
 - monolingual
@@ -19,6 +19,7 @@ task_categories:
 task_ids:
 - fact-checking-retrieval
 paperswithcode_id: hover
+pretty_name: HoVer
 ---
 
 # Dataset Card Creation Guide

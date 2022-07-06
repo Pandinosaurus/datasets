@@ -1,5 +1,5 @@
 ---
-{}
+pretty_name: qa4mre
 ---
 
 # Dataset Card for "qa4mre"
@@ -57,8 +57,6 @@ alzheimers data, and the other on entrance exams data.
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

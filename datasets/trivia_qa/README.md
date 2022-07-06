@@ -3,10 +3,10 @@ annotations_creators:
 - crowdsourced
 language_creators:
 - machine-generated
-languages:
+language:
 - en
-licenses:
-- apache-2.0
+license:
+- unknown
 multilinguality:
 - monolingual
 paperswithcode_id: triviaqa
@@ -18,8 +18,10 @@ source_datasets:
 - original
 task_categories:
 - question-answering
+- text2text-generation
 task_ids:
 - open-domain-qa
+- open-domain-abstractive-qa
 - extractive-qa
 - abstractive-qa
 ---
@@ -78,8 +80,6 @@ supervision for answering the questions.
 English.
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 
@@ -288,7 +288,7 @@ The data fields are the same among all splits.
 
 ### Licensing Information
 
-The TriviaQA dataset is released under the [Apache-2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
+The University of Washington does not own the copyright of the questions and documents included in TriviaQA.
 
 ### Citation Information
 

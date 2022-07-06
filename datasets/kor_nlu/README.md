@@ -5,9 +5,9 @@ language_creators:
 - expert-generated
 - found
 - machine-generated
-languages:
+language:
 - ko
-licenses:
+license:
 - cc-by-sa-4.0
 multilinguality:
 - monolingual
@@ -22,6 +22,7 @@ task_ids:
 - natural-language-inference
 - semantic-similarity-scoring
 paperswithcode_id: null
+pretty_name: KorNlu
 ---
 
 # Dataset Card for [Dataset Name]

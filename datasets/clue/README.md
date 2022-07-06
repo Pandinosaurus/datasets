@@ -1,5 +1,6 @@
 ---
 paperswithcode_id: clue
+pretty_name: Chinese Language Understanding Evaluation Benchmark
 ---
 
 # Dataset Card for "clue"
@@ -54,8 +55,6 @@ evaluating, and analyzing Chinese language understanding systems.
 
 ## Dataset Structure
 
-We show detailed information for up to 5 configurations of the dataset.
-
 ### Data Instances
 
 #### afqmc
@@ -95,9 +94,9 @@ This example was too long and was cropped:
 
 #### chid
 
-- **Size of downloaded dataset files:** 127.15 MB
-- **Size of the generated dataset:** 259.71 MB
-- **Total amount of disk used:** 386.86 MB
+- **Size of downloaded dataset files:** 132.75 MB
+- **Size of the generated dataset:** 261.38 MB
+- **Total amount of disk used:** 394.13 MB
 
 An example of 'train' looks as follows.
 ```
@@ -116,9 +115,9 @@ This example was too long and was cropped:
 
 #### cluewsc2020
 
-- **Size of downloaded dataset files:** 0.08 MB
-- **Size of the generated dataset:** 0.41 MB
-- **Total amount of disk used:** 0.49 MB
+- **Size of downloaded dataset files:** 0.27 MB
+- **Size of the generated dataset:** 0.98 MB
+- **Total amount of disk used:** 1.23 MB
 
 An example of 'train' looks as follows.
 ```

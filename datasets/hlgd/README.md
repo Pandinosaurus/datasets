@@ -3,9 +3,9 @@ annotations_creators:
 - crowdsourced
 language_creators:
 - expert-generated
-languages:
+language:
 - en
-licenses:
+license:
 - apache-2.0
 multilinguality:
 - monolingual
@@ -17,6 +17,7 @@ task_ids:
 - text-classification-other-headline-grouping
 size_categories:
 - 10K<n<100K
+pretty_name: Headline Grouping (HLGD)
 ---
 
 # Dataset Card for Headline Grouping (HLGD)

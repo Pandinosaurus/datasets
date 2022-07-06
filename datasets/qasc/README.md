@@ -1,5 +1,6 @@
 ---
-languages:
+pretty_name: Question Answering via Sentence Composition (QASC)
+language:
 - en
 paperswithcode_id: qasc
 ---
@@ -54,8 +55,6 @@ questions about grade school science (8,134 train, 926 dev, 920 test), and comes
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

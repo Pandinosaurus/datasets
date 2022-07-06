@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - af
 - am
 - an
@@ -191,38 +191,32 @@ languages:
 - zh_HK
 - zh_TW
 - zu
-licenses:
+license:
 - unknown
 multilinguality:
 - multilingual
 size_categories:
-  ar-bal:
-  - n<1K
-  bg-csb:
-  - 1K<n<10K
-  ca-en_GB:
-  - 1K<n<10K
-  cs-eo:
-  - n<1K
-  cs-tk:
-  - 10K<n<100K
-  da-vi:
-  - n<1K
-  de-ha:
-  - n<1K
-  de-tt:
-  - 1K<n<10K
-  el-sk:
-  - n<1K
-  en_GB-my:
-  - 10K<n<100K
+- 10K<n<100K
+- 1K<n<10K
+- n<1K
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: null
+pretty_name: OpusGnome
+configs:
+- ar-bal
+- bg-csb
+- ca-en_GB
+- cs-eo
+- cs-tk
+- da-vi
+- de-ha
+- de-tt
+- el-sk
+- en_GB-my
 ---
 
 # Dataset Card Creation Guide

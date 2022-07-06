@@ -5,9 +5,9 @@ annotations_creators:
 language_creators:
 - crowdsourced
 - found
-languages:
+language:
 - en
-licenses:
+license:
 - unknown
 multilinguality:
 - monolingual
@@ -20,6 +20,7 @@ task_categories:
 task_ids:
 - multiple-choice-qa
 paperswithcode_id: mc-taco
+pretty_name: MC-TACO
 ---
 
 # Dataset Card Creation Guide

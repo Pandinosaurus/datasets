@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: emocontext
+pretty_name: EmoContext
 ---
 
 # Dataset Card for "emo"
@@ -53,8 +54,6 @@ In this dataset, given a textual dialogue i.e. an utterance along with two previ
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

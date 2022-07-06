@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: trecqa
+pretty_name: Text Retrieval Conference Question Answering
 ---
 
 # Dataset Card for "trec"
@@ -55,8 +56,6 @@ Data are collected from four sources: 4,500 English questions published by USC (
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

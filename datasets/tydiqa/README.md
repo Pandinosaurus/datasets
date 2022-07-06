@@ -4,7 +4,7 @@ annotations_creators:
 - crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - en
 - ar
 - bn
@@ -16,7 +16,7 @@ languages:
 - ru
 - te
 - th
-licenses:
+license:
 - apache-2.0
 multilinguality:
 - multilingual
@@ -86,8 +86,6 @@ the use of translation (unlike MLQA and XQuAD).
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

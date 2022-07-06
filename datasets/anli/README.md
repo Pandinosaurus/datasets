@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: anli
+pretty_name: Adversarial NLI
 ---
 
 # Dataset Card for "anli"
@@ -33,7 +34,7 @@ paperswithcode_id: anli
 ## Dataset Description
 
 - **Homepage:** [https://github.com/facebookresearch/anli/](https://github.com/facebookresearch/anli/)
-- **Repository:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+- **Repository:** [https://github.com/facebookresearch/anli/](https://github.com/facebookresearch/anli/)
 - **Paper:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 - **Point of Contact:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 - **Size of downloaded dataset files:** 17.76 MB
@@ -53,11 +54,9 @@ It contains three rounds. Each round has train/dev/test splits.
 
 ### Languages
 
-[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+English
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 
@@ -149,7 +148,7 @@ The data fields are the same among all splits.
 
 ### Licensing Information
 
-[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+[cc-4 Attribution-NonCommercial](https://github.com/facebookresearch/anli/blob/main/LICENSE)
 
 ### Citation Information
 

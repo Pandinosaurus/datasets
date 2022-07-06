@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: asnq
+pretty_name: Answer Sentence Natural Questions
 ---
 
 # Dataset Card for "asnq"
@@ -66,8 +67,6 @@ https://research.google/pubs/pub47761/
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

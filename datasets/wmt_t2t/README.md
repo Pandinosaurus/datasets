@@ -1,5 +1,11 @@
 ---
+pretty_name: WMT T2t
 paperswithcode_id: null
+multilinguality:
+- translation
+task_categories:
+- translation
+task_ids: []
 ---
 
 # Dataset Card for "wmt_t2t"
@@ -67,8 +73,6 @@ builder = datasets.builder("wmt_translate", config=config)
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

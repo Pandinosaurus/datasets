@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - ar
 - bg
 - cs
@@ -24,28 +24,26 @@ languages:
 - sl
 - tr
 - vi
-licenses:
+license:
 - unknown
 multilinguality:
 - multilingual
 size_categories:
-  ar-en:
-  - 100K<n<1M
-  ar-pl:
-  - 100K<n<1M
-  en-ru:
-  - 100K<n<1M
-  en-sl:
-  - 100K<n<1M
-  en-vi:
-  - 10K<n<100K
+- 100K<n<1M
+- 10K<n<100K
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: null
+pretty_name: OpusWikipedia
+configs:
+- ar-en
+- ar-pl
+- en-ru
+- en-sl
+- en-vi
 ---
 
 # Dataset Card Creation Guide

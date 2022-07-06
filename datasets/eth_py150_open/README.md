@@ -3,9 +3,9 @@ annotations_creators:
 - no-annotations
 language_creators:
 - machine-generated
-languages:
+language:
 - en
-licenses:
+license:
 - apache-2.0
 multilinguality:
 - monolingual
@@ -18,6 +18,7 @@ task_categories:
 task_ids:
 - other-other-contextual-embeddings
 paperswithcode_id: eth-py150-open
+pretty_name: ethpy150open
 ---
 
 # Dataset Card for ethpy150open

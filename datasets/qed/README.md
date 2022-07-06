@@ -3,9 +3,9 @@ annotations_creators:
 - expert-generated
 language_creators:
 - found
-languages:
+language:
 - en
-licenses:
+license:
 - unknown
 multilinguality:
 - monolingual
@@ -19,6 +19,7 @@ task_ids:
 - extractive-qa
 - question-answering-other-explanations-in-question-answering
 paperswithcode_id: qed
+pretty_name: QED
 ---
 
 # Dataset Card Creation Guide

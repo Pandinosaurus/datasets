@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: webquestions
+pretty_name: WebQuestions
 ---
 
 # Dataset Card for "web_questions"
@@ -56,8 +57,6 @@ The questions are popular ones asked on the web (at least in 2013).
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

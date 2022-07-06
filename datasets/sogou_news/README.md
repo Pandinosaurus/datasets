@@ -1,4 +1,5 @@
 ---
+pretty_name: Sogou News
 paperswithcode_id: null
 ---
 
@@ -54,8 +55,6 @@ URL http://sports.sohu.com is categorized as a sport class.
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

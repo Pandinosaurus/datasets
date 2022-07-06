@@ -4,9 +4,9 @@ annotations_creators:
 - no-annotation
 language_creators:
 - found
-languages:
+language:
 - en
-licenses:
+license:
 - apache-2.0
 multilinguality:
 - monolingual
@@ -16,7 +16,7 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- structure-prediction
+- token-classification
 task_ids:
 - parsing
 ---
@@ -51,7 +51,7 @@ task_ids:
 - **Repository:** https://github.com/hirupert/sede
 - **Paper:** https://arxiv.org/abs/2106.05006
 - **Leaderboard:** https://paperswithcode.com/sota/text-to-sql-on-sede
-- **Point of Contact:** moshe@hirupert.com
+- **Point of Contact:** [email](moshe@hirupert.com)
 
 ### Dataset Summary
 

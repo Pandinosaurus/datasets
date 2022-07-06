@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: quartz
+pretty_name: QuaRTz Dataset
 ---
 
 # Dataset Card for "quartz"
@@ -58,8 +59,6 @@ The dataset is split into train (2696), dev (384) and test (784). A background s
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

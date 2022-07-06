@@ -1,11 +1,12 @@
 ---
+pretty_name: WikiMovies
 annotations_creators:
 - crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-3.0
 multilinguality:
 - monolingual
@@ -49,9 +50,9 @@ paperswithcode_id: wikimovies
 
 ## Dataset Description
 
-- **Homepage: [WikiMovies Homepage](https://research.fb.com/downloads/babi/)**
+- **Homepage:** [WikiMovies Homepage](https://research.fb.com/downloads/babi/)
 - **Repository:**
-- **Paper: [Key-Value Memory Networks for Directly Reading Documents](https://arxiv.org/pdf/1606.03126.pdf)**
+- **Paper:** [Key-Value Memory Networks for Directly Reading Documents](https://arxiv.org/pdf/1606.03126.pdf)
 - **Leaderboard:**
 - **Point of Contact:**
 

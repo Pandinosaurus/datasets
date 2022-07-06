@@ -3,7 +3,7 @@ annotations_creators:
 - no-annotation
 language_creators:
 - found
-languages:
+language:
 - af
 - am
 - an
@@ -239,8 +239,8 @@ languages:
 - other-map-bms
 - other-nds-nl
 - other-be-tarask
-licenses:
-- odbl-1.0
+license:
+- odbl
 multilinguality:
 - multilingual
 size_categories:
@@ -252,6 +252,7 @@ task_categories:
 task_ids:
 - text-classification-other-language-identification
 paperswithcode_id: wili-2018
+pretty_name: Wili2018
 ---
 
 # Dataset Card for wili_2018

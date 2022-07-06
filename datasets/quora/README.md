@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: null
+pretty_name: quora
 ---
 
 # Dataset Card for "quora"
@@ -53,8 +54,6 @@ The Quora dataset is composed of question pairs, and the task is to determine if
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

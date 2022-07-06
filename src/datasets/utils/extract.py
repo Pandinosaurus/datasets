@@ -1,3 +1,4 @@
+import bz2
 import gzip
 import lzma
 import os
@@ -7,8 +8,8 @@ import tarfile
 from zipfile import ZipFile
 from zipfile import is_zipfile as _is_zipfile
 
-from datasets import config
-from datasets.utils.filelock import FileLock
+from .. import config
+from .filelock import FileLock
 
 
 class ExtractManager:
@@ -19,7 +20,7 @@ class ExtractManager:
         self.extractor = Extractor
 
     def _get_output_path(self, path):
-        from datasets.utils.file_utils import hash_url_to_filename
+        from .file_utils import hash_url_to_filename
 
         # Path where we extract compressed archives
         # We extract in the cache dir, and get the extracted path name by hashing the original path"
@@ -123,7 +124,7 @@ class RarExtractor:
     @staticmethod
     def extract(input_path, output_path):
         if not config.RARFILE_AVAILABLE:
-            raise EnvironmentError("Please pip install rarfile")
+            raise OSError("Please pip install rarfile")
         import rarfile
 
         os.makedirs(output_path, exist_ok=True)
@@ -149,7 +150,7 @@ class ZstdExtractor:
     @staticmethod
     def extract(input_path: str, output_path: str):
         if not config.ZSTANDARD_AVAILABLE:
-            raise EnvironmentError("Please pip install zstandard")
+            raise OSError("Please pip install zstandard")
         import zstandard as zstd
 
         dctx = zstd.ZstdDecompressor()
@@ -157,9 +158,29 @@ class ZstdExtractor:
             dctx.copy_stream(ifh, ofh)
 
 
+class Bzip2Extractor:
+    @staticmethod
+    def is_extractable(path: str) -> bool:
+        with open(path, "rb") as f:
+            try:
+                header_magic_bytes = f.read(3)
+            except OSError:
+                return False
+            if header_magic_bytes == b"BZh":
+                return True
+            else:
+                return False
+
+    @staticmethod
+    def extract(input_path, output_path):
+        with bz2.open(input_path, "rb") as compressed_file:
+            with open(output_path, "wb") as extracted_file:
+                shutil.copyfileobj(compressed_file, extracted_file)
+
+
 class Extractor:
     #  Put zip file to the last, b/c it is possible wrongly detected as zip (I guess it means: as tar or gzip)
-    extractors = [TarExtractor, GzipExtractor, ZipExtractor, XzExtractor, RarExtractor, ZstdExtractor]
+    extractors = [TarExtractor, GzipExtractor, ZipExtractor, XzExtractor, RarExtractor, ZstdExtractor, Bzip2Extractor]
 
     @classmethod
     def is_extractable(cls, path, return_extractor=False):

@@ -1,10 +1,11 @@
 ---
-annotations_creators: []
+annotations_creators: 
+- crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - ro
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - monolingual
@@ -13,10 +14,12 @@ size_categories:
 source_datasets:
 - extended|other-sts-b
 task_categories:
-- text-scoring
+- text-classification
 task_ids:
+- text-scoring
 - semantic-similarity-scoring
 paperswithcode_id: null
+pretty_name: RO-STS
 ---
 
 # Dataset Card for RO-STS
@@ -51,7 +54,7 @@ paperswithcode_id: null
 - **Repository:** [GitHub](https://github.com/dumitrescustefan/RO-STS)
 - **Paper:** [Needs More Information]
 - **Leaderboard:** [Needs More Information]
-- **Point of Contact:** dumitrescu.stefan@gmail.com
+- **Point of Contact:** [email](dumitrescu.stefan@gmail.com)
 
 ### Dataset Summary
 

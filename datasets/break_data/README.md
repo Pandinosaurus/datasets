@@ -1,7 +1,8 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: break
+pretty_name: BREAK
 ---
 
 # Dataset Card for "break_data"
@@ -55,8 +56,6 @@ This repository contains the Break dataset along with information on the exact d
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

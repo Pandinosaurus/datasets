@@ -1,7 +1,12 @@
 ---
-languages:
+language:
 - en
 paperswithcode_id: commongen
+pretty_name: CommonGen
+task_ids:
+- text2text-generation-other-concepts-to-text
+task_categories:
+- text2text-generation
 ---
 
 # Dataset Card for "common_gen"
@@ -62,8 +67,6 @@ crowd-sourcing from AMT and existing caption corpora, consists of 30k concept-se
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

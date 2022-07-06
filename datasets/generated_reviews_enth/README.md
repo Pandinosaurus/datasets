@@ -4,10 +4,10 @@ annotations_creators:
 - machine-generated
 language_creators:
 - machine-generated
-languages:
+language:
 - en
 - th
-licenses:
+license:
 - cc-by-sa-4.0
 multilinguality:
 - translation
@@ -16,16 +16,16 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
+- transkation
 - text-classification
 task_ids:
-- machine-translation
 - multi-class-classification
 - semantic-similarity-classification
 paperswithcode_id: null
+pretty_name: generated_reviews_enth
 ---
 
-# Dataset Card for `generated_reviews_enth`
+# Dataset Card for generated_reviews_enth
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -65,7 +65,7 @@ paperswithcode_id: null
 
 ### Supported Tasks and Leaderboards
 
-English-to-Thai translation quality esitmation (binary label) is the intended use. Other uses include machine translation and sentiment analysis.
+English-to-Thai translation quality estimation (binary label) is the intended use. Other uses include machine translation and sentiment analysis.
 
 ### Languages
 

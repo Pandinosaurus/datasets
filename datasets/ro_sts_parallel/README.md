@@ -1,11 +1,12 @@
 ---
-annotations_creators: []
+annotations_creators:
+- crowdsourced
 language_creators:
 - crowdsourced
-languages:
+language:
 - ro
 - en
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - multilingual
@@ -14,10 +15,10 @@ size_categories:
 source_datasets:
 - extended|other-sts-b
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: null
+pretty_name: RO-STS-Parallel
 ---
 
 # Dataset Card for RO-STS-Parallel
@@ -52,7 +53,7 @@ paperswithcode_id: null
 - **Repository:** [GitHub](https://github.com/dumitrescustefan/RO-STS)
 - **Paper:** [Needs More Information]
 - **Leaderboard:** [Needs More Information]
-- **Point of Contact:** dumitrescu.stefan@gmail.com
+- **Point of Contact:** [email](dumitrescu.stefan@gmail.com)
 
 ### Dataset Summary
 

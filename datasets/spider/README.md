@@ -4,9 +4,9 @@ annotations_creators:
 language_creators:
 - expert-generated
 - machine-generated
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - monolingual
@@ -15,14 +15,15 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
+- text2text-generation
 task_ids:
-- conditional-text-generation-other-stuctured-to-text
+- text2text-generation-other-text-to-sql
 paperswithcode_id: spider-1
+pretty_name: Spider
 ---
 
 
-# Dataset Card for [spider]
+# Dataset Card for Spider
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -141,6 +142,8 @@ The listed authors in the homepage are maintaining/supporting the dataset.
 ### Dataset Curators
 
 [More Information Needed]
+
+### Licensing Information
 
 The spider dataset is licensed under 
 the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)

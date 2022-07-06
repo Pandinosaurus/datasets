@@ -3,7 +3,7 @@ annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - af
 - ar
 - as
@@ -96,7 +96,7 @@ languages:
 - zh_CN
 - zh_HK
 - zh_TW
-licenses:
+license:
 - unknown
 multilinguality:
 - multilingual
@@ -105,12 +105,12 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- conditional-text-generation
-task_ids:
-- machine-translation
+- translation
+task_ids: []
 paperswithcode_id: null
+pretty_name: KDE4
 ---
-# Dataset Card Creation Guide
+# Dataset Card for KDE4
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)

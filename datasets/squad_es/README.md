@@ -1,5 +1,6 @@
 ---
 paperswithcode_id: squad-es
+pretty_name: SQuAD-es
 ---
 
 # Dataset Card for "squad_es"
@@ -51,8 +52,6 @@ automatic translation of the Stanford Question Answering Dataset (SQuAD) v2 into
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

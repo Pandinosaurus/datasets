@@ -1,5 +1,6 @@
 ---
 paperswithcode_id: null
+pretty_name: LibrispeechLm
 ---
 
 # Dataset Card for "librispeech_lm"
@@ -51,8 +52,6 @@ Language modeling resources to be used in conjunction with the LibriSpeech ASR c
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

@@ -3,23 +3,25 @@ annotations_creators:
 - machine-generated
 language_creators:
 - found
-languages:
+language:
 - en
-licenses:
-- cc-by-3.0-at
+license:
+- cc-by-3.0
 multilinguality:
 - monolingual
 size_categories:
 - 100K<n<1M
-source_datasets: []
+source_datasets:
+- original
 task_categories:
 - question-answering
 task_ids:
 - open-domain-qa
 paperswithcode_id: simplequestions
+pretty_name: SimpleQuestions
 ---
 
-# Dataset Card Creation Guide
+# Dataset Card for SimpleQuestions
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -51,7 +53,7 @@ paperswithcode_id: simplequestions
 - **Repository:** https://github.com/fbougares/TSAC
 - **Paper:** https://research.fb.com/publications/large-scale-simple-question-answering-with-memory-networks/
 - **Leaderboard:** [If the dataset supports an active leaderboard, add link here]()
-- **Point of Contact:** Antoine Bordes (abordes@fb.com) Nicolas Usunier (usunier@fb.com) Sumit Chopra (spchopra@fb.com), Jason Weston(jase@fb.com)
+- **Point of Contact:** [Antoine Borde](abordes@fb.com) [Nicolas Usunie](usunier@fb.com) [Sumit Chopra](spchopra@fb.com), [Jason Weston](jase@fb.com)
 
 ### Dataset Summary
 

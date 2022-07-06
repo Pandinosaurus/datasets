@@ -1,5 +1,6 @@
 ---
-languages:
+pretty_name: Reuters-21578 Text Categorization Collection
+language:
 - en
 paperswithcode_id: reuters-21578
 ---
@@ -54,8 +55,6 @@ categorization research. It is collected from the Reuters financial newswire ser
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

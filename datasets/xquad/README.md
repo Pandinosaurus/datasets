@@ -4,7 +4,7 @@ annotations_creators:
 - expert-generated
 language_creators:
 - expert-generated
-languages:
+language:
 - en
 - fr
 - es
@@ -16,7 +16,7 @@ languages:
 - ar
 - vi
 - zh
-licenses:
+license:
 - cc-by-sa-4.0
 multilinguality:
 - multilingual
@@ -84,8 +84,6 @@ across 11 languages.
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

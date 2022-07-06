@@ -85,6 +85,7 @@ class ArabicSpeechCorpus(datasets.GeneratorBasedBuilder):
                 {
                     "file": datasets.Value("string"),
                     "text": datasets.Value("string"),
+                    "audio": datasets.Audio(sampling_rate=48_000),
                     "phonetic": datasets.Value("string"),
                     "orthographic": datasets.Value("string"),
                 }
@@ -92,7 +93,7 @@ class ArabicSpeechCorpus(datasets.GeneratorBasedBuilder):
             supervised_keys=("file", "text"),
             homepage=_URL,
             citation=_CITATION,
-            task_templates=[AutomaticSpeechRecognition(audio_file_path_column="file", transcription_column="text")],
+            task_templates=[AutomaticSpeechRecognition(audio_column="audio", transcription_column="text")],
         )
 
     def _split_generators(self, dl_manager):
@@ -136,6 +137,7 @@ class ArabicSpeechCorpus(datasets.GeneratorBasedBuilder):
 
             example = {
                 "file": wav_path,
+                "audio": wav_path,
                 "text": lab_text,
                 "phonetic": phonetics[wav_name],
                 "orthographic": orthographics[wav_name],

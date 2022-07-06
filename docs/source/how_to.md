@@ -1,12 +1,14 @@
 # Overview
 
-Our how-to guides will show you how to complete a specific task. These guides are intended to help you apply your knowledge of 🤗 Datasets to real-world problems you may encounter. Want to flatten a column or load a dataset from a local file? We got you covered! You should already be familiar and comfortable with the 🤗 Datasets basics, and if you aren't, we recommend reading our [tutorial](../tutorial.md) first.
+Our how-to guides will show you how to complete a specific task. These guides are intended to help you apply your knowledge of 🤗 Datasets to real-world problems you may encounter. Want to flatten a column or load a dataset from a local file? We got you covered! You should already be familiar and comfortable with the 🤗 Datasets basics, and if you aren't, we recommend reading our [tutorial](./tutorial) first.
 
 The how-to guides will cover eight key areas of 🤗 Datasets:
 
 * How to load a dataset from other data sources.
 
 * How to process a dataset.
+
+* How to use a dataset with your favorite ML/DL framework.
 
 * How to stream large datasets.
 

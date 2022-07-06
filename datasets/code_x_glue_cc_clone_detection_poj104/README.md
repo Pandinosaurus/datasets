@@ -1,12 +1,13 @@
 ---
+pretty_name: CodeXGlueCcCloneDetectionPoj104
 annotations_creators:
 - found
 language_creators:
 - found
-languages:
+language:
 - code
-licenses:
-- other-C-UDA
+license:
+- c-uda
 multilinguality:
 - monolingual
 size_categories:

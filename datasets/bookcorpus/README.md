@@ -1,10 +1,29 @@
 ---
-languages:
+annotations_creators:
+- no-annotation
+language_creators:
+- found
+language:
 - en
+license:
+- unknown
+multilinguality:
+- monolingual
+pretty_name: BookCorpus
+size_categories:
+- 10M<n<100M
+source_datasets:
+- original
+task_categories:
+- text-generation
+- fill-mask
+task_ids:
+- language-modeling
+- masked-language-modeling
 paperswithcode_id: bookcorpus
 ---
 
-# Dataset Card for "bookcorpus"
+# Dataset Card for BookCorpus
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -53,8 +72,6 @@ Books are a rich source of both fine-grained information, how a character, an ob
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 

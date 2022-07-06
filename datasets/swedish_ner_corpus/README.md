@@ -3,9 +3,9 @@ annotations_creators:
 - expert-generated
 language_creators:
 - found
-languages:
+language:
 - sv
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - monolingual
@@ -14,13 +14,14 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- structure-prediction
+- token-classification
 task_ids:
 - named-entity-recognition
 paperswithcode_id: null
+pretty_name: Swedish NER Corpus
 ---
 
-# Swedish NER Corpus
+# Dataset Card of Swedish NER Corpus
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -50,7 +51,7 @@ paperswithcode_id: null
 
 - **Homepage:** [https://github.com/klintan/swedish-ner-corpus]()
 - **Repository:** [https://github.com/klintan/swedish-ner-corpus]()
-- **Point of contact:** Andreas Klintberg (ankl@kth.se)
+- **Point of contact:** [Andreas Klintberg](ankl@kth.se)
 
 ### Dataset Summary
 

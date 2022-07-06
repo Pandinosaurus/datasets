@@ -5,9 +5,9 @@ annotations_creators:
 language_creators:
 - crowdsourced
 - expert-generated
-languages:
+language:
 - en
-licenses:
+license:
 - cc-by-4.0
 multilinguality:
 - monolingual
@@ -16,9 +16,8 @@ size_categories:
 source_datasets:
 - original
 task_categories:
-- speech-processing
-task_ids:
 - automatic-speech-recognition
+task_ids: []
 ---
 
 # Dataset Card for AMI Corpus
@@ -204,6 +203,9 @@ and its transcription, called `text`. Some additional information about the spea
  'words', ["hmm", "hmm", ...]
  'channels': [0, 0, ..], 
  'file': "/.cache/huggingface/datasets/downloads/af7e748544004557b35eef8b0522d4fb2c71e004b82ba8b7343913a15def465f"
+ 'audio': {'path': "/.cache/huggingface/datasets/downloads/af7e748544004557b35eef8b0522d4fb2c71e004b82ba8b7343913a15def465f",
+	  	   'array': array([-0.00048828, -0.00018311, -0.00137329, ...,  0.00079346, 0.00091553,  0.00085449], dtype=float32),
+	  	   'sampling_rate': 16000},
 }
 ```
 
@@ -230,6 +232,8 @@ and its transcription, called `text`. Some additional information about the spea
 - channels: a list of all channels that were used for each word
 
 - file: a path to the audio file
+
+- audio: A dictionary containing the path to the downloaded audio file, the decoded audio array, and the sampling rate. Note that when accessing the audio column: `dataset[0]["audio"]` the audio file is automatically decoded and resampled to `dataset.features["audio"].sampling_rate`. Decoding and resampling of a large number of audio files might take a significant amount of time. Thus it is important to first query the sample index before the `"audio"` column, *i.e.* `dataset[0]["audio"]` should **always** be preferred over `dataset["audio"][0]`.
 
 ### Data Splits
 
@@ -287,7 +291,7 @@ All information about the dataset creation can be found
 
 ### Personal and Sensitive Information
 
-[Needs More Information]
+The dataset consists of people who have donated their voice online. You agree to not attempt to determine the identity of speakers in this dataset.
 
 ## Considerations for Using the Data
 

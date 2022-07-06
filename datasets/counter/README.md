@@ -3,9 +3,9 @@ annotations_creators:
 - expert-generated
 language_creators:
 - expert-generated
-languages:
+language:
 - ur
-licenses:
+license:
 - cc-by-nc-sa-4.0
 multilinguality:
 - monolingual
@@ -15,8 +15,8 @@ source_datasets:
 - original
 task_categories:
 - text-classification
-- text-scoring
 task_ids:
+- text-scoring
 - semantic-similarity-scoring
 - topic-classification
 paperswithcode_id: counter
@@ -55,7 +55,7 @@ pretty_name: COUNTER
 - **Repository:** [More Information Needed]
 - **Paper:** https://link.springer.com/article/10.1007%2Fs10579-016-9367-2
 - **Leaderboard:** [More Information Needed]
-- **Point of Contact:** ucrel@lancaster.ac.uk
+- **Point of Contact:** [UCREL](ucrel@lancaster.ac.uk)
 
 ### Dataset Summary
 
@@ -179,7 +179,7 @@ The annotations were performed by three annotators (A, B and C), who were native
 
 ### Other Known Limitations
 
-[More Information Needed]
+Dataset provided for research purposes only. Please check dataset license for additional information.
 
 ## Additional Information
 

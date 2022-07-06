@@ -1,7 +1,25 @@
 ---
-languages:
+pretty_name: Extreme Summarization (XSum)
+language:
 - en
 paperswithcode_id: xsum
+task_categories:
+- summarization
+task_ids:
+- news-articles-summarization
+train-eval-index:
+- config: default
+  task: summarization
+  task_id: summarization
+  splits:
+    train_split: train
+    eval_split: test
+  col_mapping:
+    document: text
+    summary: target
+  metrics:
+    - type: rouge
+      name: Rouge
 ---
 
 # Dataset Card for "xsum"
@@ -58,8 +76,6 @@ There are three features:
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
 ## Dataset Structure
-
-We show detailed information for up to 5 configurations of the dataset.
 
 ### Data Instances
 
